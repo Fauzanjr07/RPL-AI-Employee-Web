@@ -11,5 +11,5 @@
 
 # NPM Required
 
-npm install react-use-face-detection
-npm install react-webcam
+- npm install react-use-face-detection
+- npm install react-webcam
