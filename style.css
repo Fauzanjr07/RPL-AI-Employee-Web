@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+canvas {
+    position: absolute;
+    bottom: 20vh;
+    right: 55vh;
+}
+
+.login__container{
+    background-image: url(image/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Webcam{
+    margin-top: 10px;
+}
+
+
+.form__container{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 600px;
+    background-color: #FFFF;;
+    box-shadow: 0 3px 10px #00000080;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.form__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F4F4;;
+    width: 250px;
+
+    
+}
+
+.logo{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.form__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c52933;
+    width: 550px;
+}
+.faceRecognitionPage__form{
+    margin: auto;
+    width: 480px;
+    height: 480px;
+    box-shadow: 0 3px 10px #00000080;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em 0 1em 0;
+    gap: 12px;
+    font-weight: 800;
+    font-size: 1.2em;
+}
